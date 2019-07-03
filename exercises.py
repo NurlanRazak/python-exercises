@@ -133,14 +133,17 @@ def nlist(s):
 print(nlist(a))
 
 #13
-numask = int(input("how many Fibonnaci numbers to generate: "))
-f = 0
-second = 1
-for i in range(0, numask):
-    if i <= 1:
-        next = i 
-    else:
-        next = f + second
-        f = second
-        second = next
-    print(next)        
+# def fibon():
+#     numask = int(input("how many Fibonnaci numbers to generate: "))
+#     f = 0
+#     second = 1
+#     for i in range(0, numask):
+#         if i <= 1:
+#             next = i 
+#         else:
+#             next = f + second
+#             f = second
+#             second = next
+#         # print(next)
+#         return next        
+# print(fibon())
